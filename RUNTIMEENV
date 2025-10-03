@@ -1,0 +1,2 @@
+$env:PHONEMIZER_ESPEAK_LIBRARY = "C:\Program Files\eSpeak NG\libespeak-ng.dll"
+python -m examples.basic_example --input_text "My name is Dave, and um, I'm from London" --ref_audio samples/sample000.wav --ref_text samples/sample000.txt
